@@ -13,10 +13,18 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638932070504398877
-    m_Hash: 1733942196
+      ticks: 638932077381619329
+    m_Hash: 459633854
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    C:/Users/ZEBRA/Desktop/HororMaks/MAKS/Packages/com.kinematicsoup.scenefusion2lite/package.json:
+      m_FilePath: C:/Users/ZEBRA/Desktop/HororMaks/MAKS/Packages/com.kinematicsoup.scenefusion2lite/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638582314560000000
+      m_Hash: 170725920
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/ZEBRA/Desktop/HororMaks/MAKS/Packages
@@ -2699,6 +2707,64 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.kinematicsoup.scenefusion2lite@file:C:\Users\ZEBRA\Desktop\HororMaks\MAKS\Packages\com.kinematicsoup.scenefusion2lite
+  testable: 1
+  isDirectDependency: 1
+  version: 2.0.3
+  source: 3
+  resolvedPath: C:\Users\ZEBRA\Desktop\HororMaks\MAKS\Packages\com.kinematicsoup.scenefusion2lite
+  assetPath: Packages/com.kinematicsoup.scenefusion2lite
+  name: com.kinematicsoup.scenefusion2lite
+  displayName: Scene Fusion 2 Lite
+  author:
+    name: KinematicSoup Technologies Inc.
+    email: support@kinematicsoup.com
+    url: https://kinematicsoup.com/
+  category: 
+  type: 
+  description: Use Scene Fusion to sync and edit scene files with other developers
+    in real time.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - SceneFusion
+  - Collaborate
+  - Syncing
+  - Editing
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.kinematicsoup.com/SceneFusion/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
