@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class EnergySystem : MonoBehaviour
 {
-    GameObject UED2; // обращение к объектам 
-    GameObject UEL2;
-    GameObject UEC2;
+    public GameObject UED2;
+    public GameObject UEL2;
+    public GameObject[] UEC2 = new GameObject[5];
+    public GameObject LeftDoor;
+    public GameObject RightDoor;
 
-    float Energy = 100;
+
+
+    public float Energy = 100;
 
     float UED = 0; // обявление скок будет забирать энергии  двери
     float UEL = 0; // обявление скок будет забирать энергии свет
@@ -30,26 +34,38 @@ public class EnergySystem : MonoBehaviour
 
     public void UseEnergyDoor(float UED) // UED вместо него сколько двери  будут тратить от Общей энергии 
     {
-        if(UED2. = true)
-        Energy -= UED;
+        if (LeftDoor.activeSelf && RightDoor.activeSelf)
+        {
+            Energy -= 2 * UED;
+        }
+        else if (LeftDoor.activeSelf || RightDoor.activeSelf)
+        {
+            Energy -= UED;
+        }
+
     }
 
     public void UseEnergyLight(float UEL) // UEL вместо него сколько свет  будет тратить от Общей энергии 
     {
+        
         Energy -= UEL;
+        
     }
-    public void UseEnergyCamera(float UEC) // UEC вместо него сколько камеры будут тратить от Общей энергии 
+
+    public void UseEnergyCamera(float UEC) // Проверка если хоть одна из камер включена то вычетает энергию из общей энергии
     {
-        Energy -= UEC;
+        for (int i = 0; i <= 10 ; i++)
+        {
+            if (UEC2[i].activeSelf == false)
+            {
+                continue;
+            }
+            else
+            {
+                Energy -=  UEC;
+            }
+        }
+        
     }
-
-
-    
-
-
-    
-
-
-
 
 }
