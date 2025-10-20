@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1424
     height: 981
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 93
+  controlID: 66
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 102
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 1109
     height: 420
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -976,9 +976,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 155.4885, y: -33.794662, z: 113.76055}
+    m_Target: {x: 31.502535, y: -3.5785327, z: 157.4615}
     speed: 2
-    m_Value: {x: 155.4885, y: -33.794662, z: 113.76055}
+    m_Value: {x: 31.502535, y: -3.5785327, z: 157.4615}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1024,13 +1024,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08288596, y: 0.70985234, z: -0.08472634, w: 0.6942659}
+    m_Target: {x: 0.066277616, y: 0.2890757, z: -0.020076942, w: 0.9547698}
     speed: 2
-    m_Value: {x: 0.082761094, y: 0.71091276, z: -0.08485294, w: 0.6932197}
+    m_Value: {x: 0.06630945, y: 0.287651, z: -0.019978043, w: 0.9552282}
   m_Size:
-    m_Target: 78.536476
+    m_Target: 24.797018
     speed: 2
-    m_Value: 78.536476
+    m_Value: 25.965464
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1161,24 +1161,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 240}
-      m_SelectedIDs: 
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: ae430000
       m_LastClickedID: 0
-      m_ExpandedIDs: 58f8ffff44faffff026100004a610000d661000064620000ee62000016630000
+      m_ExpandedIDs: 2afbffffda5f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Main Camera
-        m_OriginalName: Main Camera
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1478
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -1233,7 +1233,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sounds/UI_Sound
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1250,7 +1250,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: e0610000
     m_LastClickedID: 25056
-    m_ExpandedIDs: 00000000765f0000
+    m_ExpandedIDs: 0000000036630000386300003a6300003c6300003e63000040630000426300004463000046630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1278,7 +1278,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000765f0000f25f0000f45f0000f65f0000f85f00000060000040640000146800001e680000
+    m_ExpandedIDs: ffffffff0000000036630000386300003a6300003c6300003e63000040630000426300004463000046630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1294,7 +1294,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 9}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1409,7 +1409,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 108
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
