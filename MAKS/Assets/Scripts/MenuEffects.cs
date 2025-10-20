@@ -6,7 +6,6 @@ public class MenuEffects : MonoBehaviour
         
     
     
-    [Header("Audio")]
     public AudioSource staticAudioSource;
     public AudioClip staticSound;      
     

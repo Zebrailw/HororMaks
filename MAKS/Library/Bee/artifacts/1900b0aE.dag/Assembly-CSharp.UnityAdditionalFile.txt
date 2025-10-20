@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 C:\Users\ZEBRA\Desktop\HororMaks\MAKS
-=======
-D:\ynity\Progect Unity\HororMaks\MAKS
->>>>>>> e810555a05fae6e3536d28507184b736d8cd3ceb
