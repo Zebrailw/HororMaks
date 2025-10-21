@@ -54,7 +54,7 @@ public class EnergySystem : MonoBehaviour
 
     public void UseEnergyCamera(float UEC) // Проверка если хоть одна из камер включена то вычетает энергию из общей энергии
     {
-        for (int i = 0; i <= 10 ; i++)
+        for (int i = 0;i < UEC2.Length; i++)
         {
             if (UEC2[i].activeSelf == false)
             {
